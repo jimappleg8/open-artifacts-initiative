@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Artifacts 11ty Starter
+title: Open Artifacts Initiative
 eleventyNavigation:
   key: home
 permalink: /index.html
@@ -8,39 +8,26 @@ permalink: /index.html
 {% from "macros/hero.njk" import hero %}
 {% set options = {
   dark: true,
-  titleText: "Welcome to the Open Artifacts 11ty Starter",
-  subtitleText: "This starter template includes everything you need to quickly set up an Open Artifacts project website just like this one using Eleventy (11ty) as the static site generator.",
-  buttonText: "Learn More About This Project",
+  titleText: "Open Artifacts Initiative",
+  subtitleText: "Making the ongoing design of our world a collaborative effort.",
+  buttonText: "Learn More",
   buttonLink: "/project/"
 } %}
 {{ hero(options) }}
 
 {% section %}
 
-## What Is This?
+## Welcome to the Open Artifacts Initiative
 
-This site is a minimal starting point for an **Open Artifacts project**—something made to be shared, remixed, and improved over time. Whether you're documenting a local solution, a creative method, or a community idea, this starter helps you:
+The Open Artifacts Initiative is an informal organization dedicated to supporting and promoting the creation of Open Artifact projects.
 
-- Publish your idea as a clean, fast-loading site
-- Invite others to read it, remix it, and contribute
-- Ensure that your idea can live on even if you step away
+Open Artifact projects are similar to open source software projects except they're not limited to software.
 
-### What You Can Do With This Project
 
-- 💡 Click on the link in the top banner to learn what an **Open Artifact** is.
-- 🔧 Learn [how to use this starter template](/starter-kit/using-this-starter/) to make a website of your own!
-- ✍️ Add content using simple Markdown files.
-- 💬 Let others contribute to your project by submitting suggestions in GitHub Issues.
-- 🌍 Publish instantly using Netlify or GitHub Pages.
+## Why a different organization?
 
-### Who It's For
+The open artifacts initiative is intended to promote and encourage open projects that are specifically designed to make the world a better place. The name comes from Buckminster Fuller, who referred to his inventions, books, and other physical "special case" manifestations of his ideas as "artifacts."
 
-If you're a **cultural creator**—someone who wants to make the world better by sharing your knowledge, ideas, or designs—this template is for you. You don’t need to know how to code, but if you’re willing to learn a little, this will give you a running start.
-
-### Ready to Try It?
-
-→ Visit the [GitHub repository](https://github.com/jimappleg8/open-artifacts-11ty-starter) or look at the [Starter Kit](/starter-kit/) to find out what you're getting into.
-
-This project is part of the [Evolve the World](https://evolvetheworld.org/) initiative.
+To learn more about how to begin a creative practice as a way to create a better world, visit [JimApplegate.com](https://jimapplegate.com/).
 
 {% endsection %}
